@@ -1,18 +1,19 @@
 # Rock Paper Scissors Game
 # ---------------------------------
-# Rules:
-# Rock beats scissors
-# Scissors beats paper
-# Paper beats rock
-# ---------------------------------
 # Start of the game:
 # ---------------------------------
 print("*"*40)
 print("Welcome To Rock,Paper & Scissors Game!")
 print("*"*40)
+print("Rules:")
+print("Rock beats scissors.")
+print("Scissors beats paper.")
+print("Paper beats rock.")
+print("*"*40)
 print("Choose one of the following:")
-print(" *  * "*5)
 print("'Rock, Paper or Scissors'")
+print("*"*40)
+print("Then press enter to start the game.")
 print("*"*40)
 user_choice = input("Your choice: ")
 
