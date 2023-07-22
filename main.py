@@ -15,7 +15,7 @@ print("'Rock, Paper or Scissors'")
 print("*"*40)
 print("Then press enter to start the game.")
 print("*"*40)
-user_choice = input("Your choice: ")
+user_choice = input("Your choice: ").lower().capitalize()
 
 if len(user_choice) == 0:
     print("You did not enter anything.")
@@ -93,8 +93,8 @@ elif computer_choice == 3:
 # Player 2 result:
 if user_choice:
     print("*"*40)
-    # print("Computer choose:")
-#     print(computer_choice)
+    print("Computer choose:")
+    print(computer_choice)
 # ---------------------------------
 #  Results Legend:
 if user_choice == computer_choice:
